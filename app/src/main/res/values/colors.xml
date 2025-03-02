@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="teal_700">#018786</color>  <!-- Example teal color -->
+    <color name="purple_500">#6200EE</color> <!-- Define the purple color -->
+    <color name="purple_700">#3700B3</color>
+    <color name="red">#FF0000</color>
+    <color name="primary">#6200EE</color> <!-- Deep Purple (Material Design Primary Color) -->
+    <color name="primaryVariant">#3700B3</color>
+    <color name="secondary">#03DAC5</color> <!-- Teal accent -->
+
+
+
+
+</resources>

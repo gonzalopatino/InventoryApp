@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+    Inventory Management App
+    Author: Gonzalo Patino
+    Institution: Southern New Hampshire University
+
+    This layout represents a single row item in the inventory list.
+    It includes:
+    - Item Name
+    - Quantity
+    - Date of Inventory Entry
+    - A delete button to remove the item from the list
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!-- Item Name -->
+    <TextView
+        android:id="@+id/tvItemName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        tools:text="Laptop" />
+
+    <!-- Quantity -->
+    <TextView
+        android:id="@+id/tvQuantity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        tools:text="5" />
+
+    <!-- Date -->
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        tools:text="2024-02-10" />
+
+    <!-- Delete Button -->
+    <Button
+        android:id="@+id/btnDeleteRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Delete"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

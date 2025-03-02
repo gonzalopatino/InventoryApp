@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+    Inventory Management App
+    Author: Gonzalo Patino
+    Institution: Southern New Hampshire University
+
+    This layout allows the user to:
+    - Input a phone number for sending SMS notifications
+    - Enter a message to be sent via SMS
+    - Click a button to send the SMS after permission is granted
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Logo ImageView -->
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="App Logo"
+        android:src="@drawable/logo" />
+
+    <!-- Header Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Send SMS Notification"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="Send SMS Notification" />
+
+    <!-- Phone Number Input -->
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:inputType="phone"
+        android:maxLength="12"
+        android:padding="10dp"
+        tools:text="123-456-7890" />
+
+    <!-- Message Input -->
+    <EditText
+        android:id="@+id/etMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Message"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:padding="10dp"
+        tools:text="Reminder: Your inventory is running low!" />
+
+    <!-- Send SMS Button -->
+    <Button
+        android:id="@+id/btnSendSMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Send SMS"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

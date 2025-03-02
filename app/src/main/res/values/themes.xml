@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.InventoryMApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Solid white background to prevent transparency -->
+        <item name="android:windowBackground">@android:color/white</item>
+
+        <!-- Ensure no unwanted transparency -->
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowIsFloating">false</item>
+
+        <!-- Remove shadow-like effects -->
+        <item name="android:elevation">0dp</item>
+
+        <!-- Define primary theme colors -->
+        <item name="colorPrimary">#673AB7</item>
+        <item name="colorPrimaryVariant">#512DA8</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <!-- Ensure status bar color is consistent -->
+        <item name="android:statusBarColor">@android:color/white</item>
+    </style>
+</resources>
